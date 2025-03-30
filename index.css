@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        font-family: outfit;
+        background:linear-gradient(#ffdad5, #fff7f9);
+        background-size: 100% 100%;
+
+
+    }
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .contact-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        gap: 20px;
+        padding: 20px;
+    }
+    .contact-left-title h2{
+        font-size: 2rem;
+        color: #333;
+        font-weight: 600;
+        font-size: 40px;
+        margin-bottom: 5px;
+
+    }
+    .contact-left-title hr{
+        border: none;
+        width: 120px;
+        height: 5px;
+        border-radius: 10px;
+        margine-bottom: 20px;
+        background-color: #333;
+    }
+    .contact-inputs{
+        width: 400px;
+        height: 50px;
+        border: none;
+        outline: none;
+        padding-left: 25PX;
+        font-weight: 500;
+        color:rebeccapurple ;
+        border-radius: 50PX;
+
+    
+        
+    }
+    .contact-left textarea{
+        height: 140px;
+        padding-top: 15px;
+        border-radius: 20px;
+
+    }
+    .contact-inputs:focus{
+        border: 2px solid #333;
+        transition: all 0.3s ease-in-out;
+    }
+    .contact-inputs::placeholder{
+        color: rebeccapurple;
+
+    }
+    .contact-left button{
+        border: none;
+        border-radius: 50px;
+        outline: none;
+        background:linear-gradient(270deg,#ff994f,#ff5e62);
+        color: white;
+        font-size: 16px;
+        border-radius: 50px;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        padding: 15px,30px;
+        gap: 10px;
+        cursor: pointer;
+    }
+    .contact-left button:hover{
+        background: linear-gradient(270deg,#ff5e62,#ff994f);
+    }
+   
+    @media screen and (max-width: 768px){
+        .contact-inputs{
+            width: 80vw;
+        }
+        .contact-right{
+            display: none;
+        }
+    }
+    
+    h1{
+        text-align: center;
+        color: rgb(12, 12, 12);
+    }
+    .navigation{
+        width: 100%;
+        height:100%;
+        padding-top: 20px ;
+        background-color: gray;
+    }    
+    .navg{
+        display: block;
+        list-style: square;
+        padding: 50px 50px;
+        flex-direction: row;
+    }
+    .nav-item{
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        text-align: left;
+        padding: 20px 20px;
+    }
+    .nav-item>a:hover{
+        color: black;
+    }
+ 
+    .footer{
+        width: 100%;
+        height: 100%;
+        padding: bottom 10px; ;
+    }
